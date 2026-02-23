@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sire Fall | Portfolio Digitale & Commerciale</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        :root { --primary-color: #2c3e50; --accent-color: #e67e22; --light-bg: #f8f9fa; }
+        body { font-family: 'Poppins', sans-serif; color: #333; }
+        .hero { background: linear-gradient(135deg, var(--primary-color) 0%, #34495e 100%); color: white; padding: 100px 0; }
+        .section-title { margin-bottom: 50px; font-weight: 700; text-transform: uppercase; letter-spacing: 2px; color: var(--primary-color); }
+        .card { border: none; transition: transform 0.3s; box-shadow: 0 5px 15px rgba(0,0,0,0.1); }
+        .card:hover { transform: translateY(-10px); }
+        .badge-skill { background-color: var(--accent-color); color: white; padding: 8px 15px; border-radius: 20px; font-weight: 400; margin: 5px; display: inline-block; }
+        .timeline-item { border-left: 3px solid var(--accent-color); padding-left: 20px; margin-bottom: 30px; position: relative; }
+        .timeline-item::before { content: ''; position: absolute; width: 15px; height: 15px; background: var(--accent-color); left: -9px; top: 5px; border-radius: 50%; }
+        footer { background: var(--primary-color); color: white; padding: 40px 0; }
+    </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container">
+        <a class="navbar-brand fw-bold" href="#">SIRE FALL</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#about">À propos</a></li>
+                <li class="nav-item"><a class="nav-link" href="#skills">Compétences</a></li>
+                <li class="nav-item"><a class="nav-link" href="#experience">Expérience</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<header class="hero text-center">
+    <div class="container">
+        <h1 class="display-3 fw-bold">Sire Fall</h1>
+        <p class="lead mb-4">Professionnelle de la Communication Digitale & Commerciale B2B / B2C</p>
+        <a href="#contact" class="btn btn-warning btn-lg px-5">Me Contacter</a>
+    </div>
+</header>
+
+<section id="about" class="py-5">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <h2 class="section-title">À propos de moi</h2>
+                <p>Avec <strong>5 ans d'expérience</strong>, je me spécialise dans la prospection via réseaux sociaux, le suivi des commandes et la fidélisation client.</p>
+                <p>Mon objectif ? Allier mes compétences relationnelles et mon expertise en marketing digital pour booster la croissance de votre entreprise[cite: 4, 5].</p>
+            </div>
+            <div class="col-md-6 text-center">
+                <div class="p-4 bg-light rounded shadow-sm">
+                    <h4>Qualités clés</h4>
+                    <p class="mb-1"><i class="fas fa-check-circle text-success"></i> Très bon relationnel [cite: 21]</p>
+                    <p class="mb-1"><i class="fas fa-check-circle text-success"></i> Créative & Rigoureuse [cite: 22, 23]</p>
+                    <p class="mb-1"><i class="fas fa-check-circle text-success"></i> Bilingue Français / Wolof / Serrère [cite: 25, 26]</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="skills" class="py-5 bg-light">
+    <div class="container text-center">
+        <h2 class="section-title">Mes Compétences</h2>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card h-100 p-4">
+                    <i class="fas fa-bullhorn fa-3x mb-3 color-accent"></i>
+                    <h3>Marketing Digital</h3>
+                    <p>Stratégies social media, gestion de contenu, et animation de communautés sur Facebook, Instagram, WhatsApp[cite: 12, 13, 33].</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100 p-4">
+                    <i class="fas fa-users-cog fa-3x mb-3"></i>
+                    <h3>Vente & CRM</h3>
+                    <p>Prospection B2B/B2C, gestion de portefeuille, suivi client et argumentation commerciale personnalisée[cite: 5, 14, 44].</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100 p-4">
+                    <i class="fas fa-paint-brush fa-3x mb-3"></i>
+                    <h3>Design & Outils</h3>
+                    <p>Maîtrise de <strong>Canva</strong> pour les supports visuels et des outils de bureautique classiques[cite: 40, 31].</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="experience" class="py-5">
+    <div class="container">
+        <h2 class="section-title text-center">Parcours Professionnel</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="timeline-item">
+                    <h5>Community Manager | TAGAT</h5>
+                    <small class="text-muted">Juillet 2020 - Septembre 2025 [cite: 34, 35]</small>
+                    <p>Conception de campagnes, rédaction de contenus et veille stratégique pour accroître la notoriété des clients[cite: 36, 37, 39].</p>
+                </div>
+                <div class="timeline-item">
+                    <h5>Commerciale Digitale | BELLE DAME COUTURE</h5>
+                    <small class="text-muted">Février 2022 - Juillet 2025 [cite: 42]</small>
+                    <p>Augmentation des ventes via des campagnes ciblées et gestion du SAV via WhatsApp professionnel[cite: 43, 46].</p>
+                </div>
+                <div class="timeline-item">
+                    <h5>Entrepreneure | LA SEMOULE</h5>
+                    <small class="text-muted">Depuis Août 2025 [cite: 47]</small>
+                    <p>Développement d'un réseau de revendeurs et gestion autonome de la communication digitale[cite: 48].</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer id="contact">
+    <div class="container text-center">
+        <h2 class="mb-4">Prêt à collaborer ?</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <p><i class="fas fa-phone"></i> +221 770203760 [cite: 7]</p>
+            </div>
+            <div class="col-md-4">
+                <p><i class="fas fa-envelope"></i> fallsira21@gmail.com [cite: 8]</p>
+            </div>
+            <div class="col-md-4">
+                <p><i class="fas fa-map-marker-alt"></i> Pikine, Sénégal [cite: 9]</p>
+            </div>
+        </div>
+        <hr class="my-4">
+        <p class="small opacity-50">&copy; 2026 Sire Fall - Tous droits réservés.</p>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
